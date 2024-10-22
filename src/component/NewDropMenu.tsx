@@ -20,11 +20,11 @@ export default function NewDropMenu() {
       key: '2',
       label: (
         <a target="_blank" rel="noopener noreferrer" href="#">
-          2nd menu item (disabled)
+          2nd menu item 
         </a>
       ),
       icon: <LogoutOutlined />,
-      disabled: true,
+     
     },
   ];
 

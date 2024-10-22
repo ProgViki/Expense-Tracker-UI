@@ -1,13 +1,10 @@
 import { Link, useLocation } from 'react-router-dom'
 import Activities from '../../public/react.svg'
-import Vendor from '../../public/react.svg'
-import ArrowDown from '../../public/vite.svg'
+
 import Category from '../../public/vite.svg'
 import Listing from '../../public/vite.svg'
-import { useState } from 'react'
+// import { useState } from 'react'
 
-import { twMerge } from 'tailwind-merge'
-import Expense from '../pages/Expense';
 
 type MenuItemProps = {
   extraStyle?: string
@@ -45,7 +42,7 @@ function MenuItems(props: MenuItemProps) {
 }
 
 export default function SideNav() {
-  const [openSubmenu, setOpenSubmenu] = useState(false)
+  // const [openSubmenu, setOpenSubmenu] = useState(false)
 
   // // const { data: authUser, isLoading: authUserLoading } = useGetAuthUserQuery()
   // const isAdmin =
